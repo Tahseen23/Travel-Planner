@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.header img{
+  width: 150px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+.header img:hover{
+  cursor: pointer;
+}
+
+
+
+.main{
+  display: flex;
+  justify-content: center;
+}
