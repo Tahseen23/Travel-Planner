@@ -7,8 +7,9 @@
 .header img{
   width: 150px;
   margin-top: 0px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
+
 .header img:hover{
   cursor: pointer;
 }
@@ -17,5 +18,41 @@
 
 .main{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main h1{
+  font-size: 40px;
+}
+
+.input{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  border-radius: 20px;
+}
+
+.input input{
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+
+}
+
+.arrow{
+  background-color: green;
+  color: white;
+  width: 100px;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.input button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
