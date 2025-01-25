@@ -36,11 +36,12 @@
 
 .main{
   width: 65%;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
   border:5px solid  pink;
   margin: auto;
   padding: 15px;
+  align-items: center;
 }
 
 .rectangle h3{
@@ -74,3 +75,18 @@
 
 }
 
+
+.last{
+  margin-top: 20px;
+  width: 70px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+}
+
+.last:hover{
+  cursor: pointer;
+  transform: scale(1.1)
+  
+}

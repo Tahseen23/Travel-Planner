@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
 import Home from "../pages/Home";
+import Roadmap from "../pages/Roadmap";
 
 const route=createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const route=createBrowserRouter([
       {
         path:'',
         element:<Home/>
+      },
+      {
+        path:'/roadmap',
+        element:<Roadmap/>
       }
     ]
   }
